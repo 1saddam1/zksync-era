@@ -1,5 +1,39 @@
 # Changelog
 
+## [11.1.0](https://github.com/matter-labs/zksync-era/compare/prover-v11.0.0...prover-v11.1.0) (2024-02-20)
+
+
+### Features
+
+* **api:** Remove unused and obsolete token info ([#1071](https://github.com/matter-labs/zksync-era/issues/1071)) ([e920897](https://github.com/matter-labs/zksync-era/commit/e920897d41583b822eefc72fb5899cfcbeefd621))
+* **db:** Soft-remove `storage` table ([#982](https://github.com/matter-labs/zksync-era/issues/982)) ([601f893](https://github.com/matter-labs/zksync-era/commit/601f893b98613222422961b95473560445e34637))
+* **en:** Integrate snapshots recovery into EN ([#1032](https://github.com/matter-labs/zksync-era/issues/1032)) ([c7cfaf9](https://github.com/matter-labs/zksync-era/commit/c7cfaf94e20987fa5b9d91c6b65bd66f5d907620))
+* improving verification key generation ([#1050](https://github.com/matter-labs/zksync-era/issues/1050)) ([6f715c8](https://github.com/matter-labs/zksync-era/commit/6f715c8dd7093b95f95d4262b5202b2e6ce77f49))
+* Prover interface and L1 interface crates ([#959](https://github.com/matter-labs/zksync-era/issues/959)) ([4f7e107](https://github.com/matter-labs/zksync-era/commit/4f7e10783afdff67a24246f17f03b536f743352d))
+* **prover:** Added 4844 circuit to verification keys ([#1141](https://github.com/matter-labs/zksync-era/issues/1141)) ([8b0cc4a](https://github.com/matter-labs/zksync-era/commit/8b0cc4a81a49d3d8b58bb0e94e5bd20f9fec14d6))
+* **prover:** adding keystore object to handle reading and writing of prover keys ([#1132](https://github.com/matter-labs/zksync-era/issues/1132)) ([1471615](https://github.com/matter-labs/zksync-era/commit/147161500b209e4dc05fca252cbf23f61c47a7a9))
+* **prover:** merging key generation into a single binary  ([#1101](https://github.com/matter-labs/zksync-era/issues/1101)) ([6de8b84](https://github.com/matter-labs/zksync-era/commit/6de8b84985a5dff25cd38c0f9a88972d85f39a70))
+* **prover:** Moved setup key generation logic to test harness ([#1113](https://github.com/matter-labs/zksync-era/issues/1113)) ([469ab06](https://github.com/matter-labs/zksync-era/commit/469ab06af3a57b86ae504dc2a2644407ea4ee4e2))
+* **vlog:** Remove env getters from vlog ([#1077](https://github.com/matter-labs/zksync-era/issues/1077)) ([00d3429](https://github.com/matter-labs/zksync-era/commit/00d342932c6305055f719afaecf6a0eeeb3ca63a))
+
+
+### Bug Fixes
+
+* fix link ([#1007](https://github.com/matter-labs/zksync-era/issues/1007)) ([f1424ce](https://github.com/matter-labs/zksync-era/commit/f1424ced16b5609e736d9075ef1339b955154260))
+* make `zk status prover` use the new prover table ([#1044](https://github.com/matter-labs/zksync-era/issues/1044)) ([9b21d7f](https://github.com/matter-labs/zksync-era/commit/9b21d7fc2602bf9e6c6ae560dc267ede387ac4ea))
+* **prover:** Decouple core/ prover database management ([#1029](https://github.com/matter-labs/zksync-era/issues/1029)) ([37674fd](https://github.com/matter-labs/zksync-era/commit/37674fdfc44c1130cad5f265ea57cb15aa81a08f))
+* **prover:** Fix initial prover migration ([#1083](https://github.com/matter-labs/zksync-era/issues/1083)) ([6d54010](https://github.com/matter-labs/zksync-era/commit/6d540100aeb3fa237cb23b2f1168d82f9d8e1930))
+* **prover:** QoL socket utilization ([#1020](https://github.com/matter-labs/zksync-era/issues/1020)) ([13a6816](https://github.com/matter-labs/zksync-era/commit/13a68160c0562d27fd3688dc57fb7730e42ea4db))
+* update harness to include fix to new boojum OOM ([#1053](https://github.com/matter-labs/zksync-era/issues/1053)) ([4976941](https://github.com/matter-labs/zksync-era/commit/4976941b677cbfe19a40bac1b7541a67c323f7cd))
+
+
+### Performance Improvements
+
+* bump harness version ([#1003](https://github.com/matter-labs/zksync-era/issues/1003)) ([1cbb4c9](https://github.com/matter-labs/zksync-era/commit/1cbb4c9bb77a63494e30cb13b07c70712e3741c2))
+* reduce memory consumption of witness generation ([#696](https://github.com/matter-labs/zksync-era/issues/696)) ([dea6768](https://github.com/matter-labs/zksync-era/commit/dea676832bcd54a4adc8998f309fed42f098a529))
+* upgrade harness version to improve witness generation memory spike ([#1034](https://github.com/matter-labs/zksync-era/issues/1034)) ([09bbb84](https://github.com/matter-labs/zksync-era/commit/09bbb841c37bfd87deedf204d9832c486dad7bc7))
+* use jemalloc in witness generator ([#1014](https://github.com/matter-labs/zksync-era/issues/1014)) ([917b2dc](https://github.com/matter-labs/zksync-era/commit/917b2dc9bfbb2b2d29145ade787febbb569a4b11))
+
 ## [11.0.0](https://github.com/matter-labs/zksync-era/compare/prover-v10.1.0...prover-v11.0.0) (2024-01-29)
 
 

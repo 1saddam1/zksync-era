@@ -1,5 +1,22 @@
 # Changelog
 
+## [20.8.0](https://github.com/matter-labs/zksync-era/compare/core-v20.7.0...core-v20.8.0) (2024-02-20)
+
+
+### Features
+
+* Add more buckets to call tracer ([#1137](https://github.com/matter-labs/zksync-era/issues/1137)) ([dacd8c9](https://github.com/matter-labs/zksync-era/commit/dacd8c99ee08175b885489ca12322d275e4c3d11))
+* **api:** Create RPC method to return all tokens ([#1103](https://github.com/matter-labs/zksync-era/issues/1103)) ([b538d1a](https://github.com/matter-labs/zksync-era/commit/b538d1a411f58a4106afea8f9a71a3ea2ad9352d))
+* **en:** Add health checks for EN components ([#1088](https://github.com/matter-labs/zksync-era/issues/1088)) ([4ea1520](https://github.com/matter-labs/zksync-era/commit/4ea15202f9d703bbefe9e383138321b33d0844ee))
+* **en:** Take into account nonce from tx proxy ([#995](https://github.com/matter-labs/zksync-era/issues/995)) ([22099cb](https://github.com/matter-labs/zksync-era/commit/22099cb2f90d917a2479b82c8a4165e68c8da878))
+* **shared bridge:** preparation for shared bridge migration (server) ([#1012](https://github.com/matter-labs/zksync-era/issues/1012)) ([2a766a7](https://github.com/matter-labs/zksync-era/commit/2a766a75db8f14a6eadf0fdecac415865724cb5f))
+* **vlog:** Remove env getters from vlog ([#1077](https://github.com/matter-labs/zksync-era/issues/1077)) ([00d3429](https://github.com/matter-labs/zksync-era/commit/00d342932c6305055f719afaecf6a0eeeb3ca63a))
+
+
+### Bug Fixes
+
+* **state-keeper:** Add GasForBatchTip criterion ([#1096](https://github.com/matter-labs/zksync-era/issues/1096)) ([de4d729](https://github.com/matter-labs/zksync-era/commit/de4d729dbd1f2f1bf524be75a0f8ee9d9cd372f8))
+
 ## [20.7.0](https://github.com/matter-labs/zksync-era/compare/core-v20.6.0...core-v20.7.0) (2024-02-16)
 
 
